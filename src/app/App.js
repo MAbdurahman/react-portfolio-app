@@ -1,12 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../components/navbar/Navbar';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>React-Portfolio-App</h1>
-    </div>
-  );
+	return <Navbar />;
 }
 
 export default App;
