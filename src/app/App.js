@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
 import Header from '../components/header/Header';
 import Navbar from '../components/navbar/Navbar';
+import About from './../components/about/About';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 			/>
 			<Navbar />
 			<Header />
+			<About />
 		</>
 	);
 }
