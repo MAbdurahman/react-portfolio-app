@@ -4,6 +4,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -12,6 +14,9 @@ body {
 
 
 /************************ NAVBAR *********************************/
+nav {
+  z-index: 2;
+}
 .logo {
   width: 16.25rem;
 }
@@ -105,6 +110,8 @@ nav ul li {
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
+  font-size: 1.125rem;
+  letter-spacing: 1px;
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
   border-radius: 0;
@@ -118,6 +125,12 @@ nav ul li {
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
   transition: .2s ease-in-out;
+}
+@media(max-width: 768px) {
+  .btn-main-offer {
+    font-size: .9rem;
+    letter-spacing: normal;
+  }
 }
 
 /*-------- PARTICLES JS ---------------*/
