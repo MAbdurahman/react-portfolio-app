@@ -10,7 +10,7 @@ export default function About() {
 						<img
 							className='profile-img'
 							src={author}
-							alt='Author image'
+							alt='Author photo'
 						/>
 					</div>
 				</div>
