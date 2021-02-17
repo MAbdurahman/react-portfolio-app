@@ -14,7 +14,7 @@ export default function About() {
 						/>
 					</div>
 				</div>
-				<div className='col-lg-6 col-xs-12'>
+				<div className='about-info col-lg-6 col-xs-12'>
 					<h1 className='about-heading'>about me</h1>
                <p>
                   Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
