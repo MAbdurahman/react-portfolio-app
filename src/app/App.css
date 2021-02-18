@@ -9,6 +9,7 @@
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 body {
@@ -443,10 +444,15 @@ nav ul li {
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .portfolio-image-box:hover .overflow {
-  opacity: 60%;
+  opacity: 0.3;
   transition: 0.3s ease-in-out;
 }
 
@@ -457,11 +463,15 @@ nav ul li {
   margin-top: 3.6rem;
   color: var(--primary-orange);
   font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .portfolio-image-box:hover .portfolio-icon {
-  opacity: 70%;
-  transition: 0.3s ease-in-out;
+  opacity: 0.8;
   cursor: pointer;
 }
 
