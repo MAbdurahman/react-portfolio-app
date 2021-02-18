@@ -69,6 +69,7 @@ nav ul li {
   background: url('../img/wall-and-laptop-background.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
 }
 
@@ -116,10 +117,14 @@ nav ul li {
   letter-spacing: 1px;
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 3px;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .btn-main-offer:hover {
@@ -160,13 +165,13 @@ nav ul li {
 .profile-img {
   width: 16rem;
   width: 375px;
-  border-radius: 2%;
+  border-radius: 3px;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
-  -webkit-border-radius: 2%;
-  -moz-border-radius: 2%;
-  -ms-border-radius: 2%;
-  -o-border-radius: 2%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .about-heading {
@@ -228,6 +233,11 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .services .box:hover {
