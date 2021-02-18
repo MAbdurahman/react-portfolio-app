@@ -25,7 +25,7 @@ export default function About() {
 
                   And I’m ready to do this for you, before we start developing your website, we will discuss all the  details of your niche with you, I will conduct a survey of your competitors and make a list of their advantages and weaknesses.
 
-                  All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
+                  {/* All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better! */}
 
                   After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google AdWords and Facebook!
                </p>
