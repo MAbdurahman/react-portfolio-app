@@ -239,6 +239,11 @@ nav ul li {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  transition:all 0.3s ease-in-out;
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -ms-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
 }
 
 .services .box:hover {
