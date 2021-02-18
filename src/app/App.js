@@ -6,6 +6,7 @@ import Services from '../components/services/Services';
 import Experience from '../experience/Experience';
 import About from './../components/about/About';
 import './App.css';
+import Portfolio from './../components/portfolio/Portfolio';
 
 function App() {
 	return (
@@ -31,11 +32,12 @@ function App() {
 					},
 				}}
 			/>
-			<Navbar />
-			<Header />
-			<About />
-			<Services />
-			<Experience />
+			<Navbar/>
+			<Header/>
+			<About/>
+			<Services/>
+			<Experience/>
+			<Portfolio/>
 		</>
 	);
 }
