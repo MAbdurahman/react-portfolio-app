@@ -9,7 +9,7 @@ export default function Services() {
 			<h1 className='services-title py-5'>my services</h1>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-md-3 col-sm-6'>
+					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='box'>
 							<div className='circle'>
 								<FontAwesomeIcon
@@ -18,7 +18,7 @@ export default function Services() {
 									size='2x'
 								/>
 							</div>
-							<h3>Web Design</h3>
+							<h3 className='service--sub-title'>Web Design</h3>
 							<p>
 								I approach each project individually and always focus on
 								the result.
@@ -26,7 +26,7 @@ export default function Services() {
 						</div>
 					</div>
 					{/* - */}
-					<div className='col-md-3 col-sm-6'>
+					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='box'>
 							<div className='circle'>
 								<FontAwesomeIcon
@@ -35,7 +35,7 @@ export default function Services() {
 									size='2x'
 								/>
 							</div>
-							<h3>Web Development</h3>
+							<h3 className='service--sub-title'>Web Development</h3>
 							<p>
 								Your website will be build with an new proven
 								technologies.
@@ -43,7 +43,7 @@ export default function Services() {
 						</div>
 					</div>
 					{/* - */}
-					<div className='col-md-3 col-sm-6'>
+					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='box'>
 							<div className='circle'>
 								<FontAwesomeIcon
@@ -52,7 +52,7 @@ export default function Services() {
 									size='2x'
 								/>
 							</div>
-							<h3>Facebook Ads SMM</h3>
+							<h3 className='service--sub-title'>Facebook Ads SMM</h3>
 							<p>
 								Your potential clients well see your services or product
 								on Facebook.
@@ -60,7 +60,7 @@ export default function Services() {
 						</div>
 					</div>
 					{/* - */}
-					<div className='col-md-3 col-sm-6'>
+					<div className='col-lg-3 col-md-6 col-sm-6'>
 						<div className='box'>
 							<div className='circle'>
 								<FontAwesomeIcon
@@ -70,7 +70,7 @@ export default function Services() {
 								/>
 							</div>
 
-							<h3>Google Ads</h3>
+							<h3 className='service--sub-title'>Google Ads</h3>
 							<p>
 								Your service or product will appear at the top of the
 								Google search.
