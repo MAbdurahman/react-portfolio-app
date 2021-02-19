@@ -617,7 +617,7 @@ nav ul li {
   margin-top: 3% !important;
 }
 
-/************************ CONTACTS COMPONENT *********************************/
+/************************ CONTACT *********************************/
 .contacts {
   background: var(--primary-dark);
   padding: 3rem 0;
@@ -627,11 +627,13 @@ nav ul li {
   color: var(--primary-orange);
   padding: 1.3rem 0;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .contacts p {
   color: var(--primary-light-grey);
   font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 
 /*------------------ INPUTS -------------------------------*/
