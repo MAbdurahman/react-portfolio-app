@@ -525,6 +525,7 @@ nav ul li {
 .testimonials {
   background-image: url('../img/testimonials/testimonial-bg.jpg');
   background-size: cover;
+  background-position: center;
   background-color: var(--primary-black);
   text-align: center;
   padding-bottom: 4rem;
@@ -564,10 +565,40 @@ nav ul li {
   color: var(--primary-orange);
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .myCarousel p {
   color: var(--primary-grey);
+  letter-spacing: 1px;
+}
+
+/*table portrait layout (768px to 959px) */
+@media only screen and (max-width: 768px) {
+
+  /*... tablet portrait styles */
+  .myCarousel h3,
+  .myCarousel p {
+    letter-spacing: normal;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  /*..phone portrait styles */
+  .myCarousel h3 {
+    font-size: 1.2rem;
+  }
+
+  .myCarousel p {
+    font-size: .9rem;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .myCarousel h3 {
+    font-size: 1rem;
+  }
 }
 
 .carousel .slide img {

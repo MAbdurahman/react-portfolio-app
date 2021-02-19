@@ -41,7 +41,7 @@ export default function TestimonialCarousel() {
 			<>
 				<img src={testimonial_3} alt='Male Testimonial 3' />
 				<div className='myCarousel'>
-					<h3>Darryl Romaine</h3>
+					<h3>Esfir Novikov</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Debitis ratione sequi saepe dicta blanditiis, molestias eum
