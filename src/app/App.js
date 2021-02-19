@@ -5,8 +5,9 @@ import Navbar from '../components/navbar/Navbar';
 import Services from '../components/services/Services';
 import Experience from '../experience/Experience';
 import About from './../components/about/About';
-import './App.css';
 import Portfolio from './../components/portfolio/Portfolio';
+import Testimonial from './../components/testimonial/Testimonial';
+import './App.css';
 
 function App() {
 	return (
@@ -38,6 +39,7 @@ function App() {
 			<Services/>
 			<Experience/>
 			<Portfolio/>
+			<Testimonial/>
 		</>
 	);
 }
