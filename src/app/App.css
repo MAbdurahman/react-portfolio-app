@@ -595,6 +595,7 @@ nav ul li {
     font-size: .9rem;
   }
 }
+
 @media only screen and (max-width: 325px) {
   .myCarousel h3 {
     font-size: 1rem;
@@ -681,6 +682,7 @@ nav ul li {
   height: 0.125rem;
   background: var(--primary-orange);
   display: inline-block;
+  transition: width 0.5s ease-in-out;
 }
 
 input:focus+.line,
@@ -708,7 +710,7 @@ textarea.form-control {
   color: var(--primary-green);
 }
 
-/*---------------- MEDIA -----------------------*/
+/*---------------- MEDIA QUERIES -----------------------*/
 @media(max-width: 768px) {
   .contacts {
     overflow-x: hidden;
