@@ -5,6 +5,7 @@ import testimonial_1 from '../../img/testimonials/testimonial-1.jpg';
 import testimonial_2 from '../../img/testimonials/testimonial-2.jpg';
 import testimonial_3 from '../../img/testimonials/testimonial-3.jpg';
 import testimonial_4 from '../../img/testimonials/testimonial-4.jpg';
+import testimonial_5 from '../../img/testimonials/testimonial-5.jpg';
 
 export default function TestimonialCarousel() {
    return (
@@ -53,6 +54,17 @@ export default function TestimonialCarousel() {
 				<img src={testimonial_4} alt='Female Testimonial 4' />
 				<div className='myCarousel'>
 					<h3>Kaitlyn Devney</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Debitis ratione sequi saepe dicta blanditiis, molestias eum
+						excepturi quod fugiat veniam!
+					</p>
+				</div>
+			</>
+			<>
+				<img src={testimonial_5} alt='Male Testimonial 5' />
+				<div className='myCarousel'>
+					<h3>Gary Bauer</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Debitis ratione sequi saepe dicta blanditiis, molestias eum
