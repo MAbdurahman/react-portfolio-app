@@ -748,3 +748,11 @@ textarea.form-control {
 .footer p {
   margin-bottom: 0;
 }
+
+.footer .inner-wrapper {
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-content: space-around;
+
+}

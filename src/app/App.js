@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
 import Contact from '../components/contact/Contact';
+import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Navbar from '../components/navbar/Navbar';
 import Services from '../components/services/Services';
@@ -42,6 +43,7 @@ function App() {
 			<Portfolio/>
 			<Testimonial/>
 			<Contact/>
+			<Footer/>
 		</>
 	);
 }
