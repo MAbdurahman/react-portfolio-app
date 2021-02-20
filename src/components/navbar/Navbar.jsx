@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
          <div className="container">
 
-            <Link smooth={true} to='home'  className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></Link>
+            <Link smooth={true} to='home'  className="navbar-brand" href="#"><img className="logo" src={logo} alt="Logo" /></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
             </button>
