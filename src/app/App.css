@@ -74,7 +74,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -479,6 +479,23 @@ nav ul li {
   cursor: pointer;
 }
 
+.popupbox-content {
+  padding-left: 7em;
+  padding-bottom: 2em;
+}
+
+@media(max-width: 1048px) {
+  .popupbox-content {
+    padding-left: 3em;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .popupbox-content {
+    padding-left: 1.5em;
+  }
+}
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
   width: 45rem;
@@ -503,7 +520,8 @@ nav ul li {
 
 @media(max-height: 570px) {
   .popupbox-wrapper {
-    height: 100%;
+    height: 60%;
+    font-size: .7rem;
   }
 
   .portfolio-image-popupbox {
